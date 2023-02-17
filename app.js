@@ -18,6 +18,11 @@ window.addEventListener("DOMContentLoaded", function(){
           logo.classList.add("fade");
         },800*(index+1))
       },2000)
-    })  
+    })
+    
+    // screen disappearence
+    setTimeout(()=>{
+      intro.style.top = "-100vh"
+    },2200)
   })
 })
