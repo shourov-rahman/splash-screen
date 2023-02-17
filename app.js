@@ -8,7 +8,16 @@ window.addEventListener("DOMContentLoaded", function(){
     intrologo.forEach((logo,index)=>{
       setTimeout(()=>{
         logo.classList.add("active");
-      },500*(index+1));
-    })      
+      },250*(index+1));
+    })
+    //logo disappearing
+    setTimeout(()=>{
+      intrologo.forEach((logo,index)=>{
+        setTimeout(()=>{
+          logo.classList.remove("active");
+          logo.classList.add("fade");
+        },800*(index+1))
+      },2000)
+    })  
   })
 })
