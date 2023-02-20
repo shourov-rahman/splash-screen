@@ -10,7 +10,7 @@
 After the webpage loads in the browser, a splash screen will appear and then disappear with a text/logo. 
 
 </br>
-<div align="center"><img align="center" src="./assets/gifs/splash-screen.gif" alt="" width="80%"/>
+<div align="center"><img align="center" src="./assets/gifs/splash-screen.gif" alt="" width="100%"/>
 </div>
 </br>
 
